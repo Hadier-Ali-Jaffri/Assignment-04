@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.topbar {
+    background-color: #237df1;
+}
+
+.dropdown-menu a {
+    border-radius: 50px;
+    color: #237df1 !important;
+}
+.fixed-top {
+    background-color: #237df1 !important;
+}
+.fixed-top ul li a {
+    color: #ffffff;
+}
+h3 {
+ font-size: xx-large !important;
+ font-weight: bolder !important;
+}
+.jumbotron {
+    margin-top: 60px;
+    background-image: url(../images/contact-background-tablet.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.call,.email {
+    margin: 30px;
+}
+.call,.email,i {
+    font-size: 20px;
+} 
+.navebarcontact {
+    background-color: #237df1;
+}
+.navbar-nav li {
+    background-color: #237df1;
+}
+.navbar-nav li:hover > div.dropdown-menu {
+    display: block;
+    color: b#237df1 !important;
+}
+
+.carousel {
+    margin: 5px
+}
+
+.special i {
+    color: #3a660a;
+}
+.scrolltotop {
+    color: #000000;
+    display: inline-block;
+   font-size: 32px;
+    width: 50px;
+    right: 15px;
+    position: absolute;
+    text-decoration: none;
+    border-radius: 3rem;
+}
+ .scrolltotop :hover {
+    color: #ffffff
+} 
+.bottombar {
+    color: #ffffff;
+    background-color: #316dd9;
+    padding: 15px;
+    font-weight: bold;
+}
+ .headoffice {
+    background-color: #000000;
+}
+.icon-button {
+    background-color:#3a660a;
+    border-radius: 3.2rem;
+    height: 3.1rem;
+    line-height: 2.1rem;
+    color: #ffffff;
+}
+.which {
+    color: brown;
+}
+.dash {
+    width: 160px;
+    height: 2px;
+    background-color: #ffffff;
+    display: block;
+    text-align: center;
+    display: inline-block;
+}
+.pendemaic {
+    font-size: 25px;
+    color: #000000;
+    text-decoration: underline;
+}
+
+.blink a {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 33px;
+    font-style: oblique;
+    border-radius: 30px;
+    color: #000000;
+    
+
+    animation: animation 2s infinite linear;
+    -webkit-animation: animation 2s infinite linear;
+    -moz-animation: animation 2s infinite linear;
+}
+@keyframes animation
+{
+    0%,45%
+    {
+        background-color: greenyellow;
+    }
+    46%,100% 
+    {
+        background-color: #237df1;
+
+    }
+}
+.card {
+    margin: 10px;
+}
+
+.All-phones, .coming {
+    padding: 100px;
+    text-decoration: underline;
+}
+.side-text {
+    display: inline;
+    position: absolute;
+    color: #237df1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-color: #e6004b;
+}
+.expected {
+    color: #0000ff;
+}
+
+.content {
+    font-size: 20px;
+}
+.fa-shopping-cart {
+    font-size: 35px !important;
+}
